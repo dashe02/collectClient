@@ -1,5 +1,6 @@
 package org.collectinfo.mina.client.collectinfo;
 
+import org.collectinfo.mina.client.util.GetLocalIP;
 import org.hyperic.sigar.*;
 
 import java.util.ArrayList;
@@ -16,6 +17,7 @@ import java.util.Map;
  */
 public class CollectSytemInfo {
     private final long constant=1024L;
+    private final GetLocalIP getLocalIP=new GetLocalIP();
     public Map<String,Float> getMemory(){
         float totalMem=0f;
         float usedMem=0f;
@@ -151,7 +153,8 @@ public class CollectSytemInfo {
        float mem=getMemoryUse();   //内存使用率
        float net=getNetUse();
        int thread=getThreadCount();
-       systemInfo="{cpu:"+cpu+",mem:"+mem+",net:"+net+",thread:"+thread+"}";
+       String localIP=getLocalIP.getLocalIP().getHostAddress();
+       systemInfo="{ip:"+localIP+",cpu:"+cpu+",mem:"+mem+",net:"+net+",thread:"+thread+"}";
        return systemInfo;
     }
     public float getCpuUse(){      //使用cpu利用率

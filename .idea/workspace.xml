@@ -12,12 +12,12 @@
     <file path="/ConfigParse.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418025586433" ignored="false" />
     <file path="/ConfigParser.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418025689336" ignored="false" />
     <file path="/MimaTimeClient.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418202529627" ignored="false" />
-    <file path="/conf.properties" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418186274922" ignored="false" />
+    <file path="/conf.properties" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418211320058" ignored="false" />
     <file path="/fragment.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418203732239" ignored="false" />
-    <file path="$PROJECT_DIR$/../CollectInfo/src/main/java/org/collectinfo/mina/config/ConfigParser.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418026603597" ignored="false" />
+    <file path="$PROJECT_DIR$/../CollectInfo/src/main/java/org/collectinfo/mina/config/ConfigParser.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418211265053" ignored="false" />
     <file path="$PROJECT_DIR$/../CollectInfo/src/main/java/org/collectinfo/mina/server/MinaTimeServer.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418026765333" ignored="false" />
     <file path="/MinaTimeServer.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418026765333" ignored="false" />
-    <file path="$PROJECT_DIR$/../CollectInfo/conf/conf.properties" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418131857402" ignored="false" />
+    <file path="$PROJECT_DIR$/../CollectInfo/conf/conf.properties" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418211302092" ignored="false" />
     <file path="/LinuxSystemTool.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418190433727" ignored="false" />
     <file path="/MyTimer.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418038107060" ignored="false" />
     <file path="E:/openclouddb/trunk/MyCAT/src/main/java/org/opencloudb/MycatServer.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418039132544" ignored="false" />
@@ -45,7 +45,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -81,6 +80,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -90,10 +90,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StartClient.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="StartClient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/StartClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="32" selection-start="354" selection-end="354" vertical-scroll-proportion="0.56565654">
+            <state line="7" column="37" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetLocalIP.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/util/GetLocalIP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="8" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollectSytemInfo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/collectinfo/CollectSytemInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="159" column="24" selection-start="6471" selection-end="6471" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigParser.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/config/ConfigParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="48" selection-start="440" selection-end="440" vertical-scroll-proportion="0.50373137">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conf.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/conf.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="34" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -126,14 +164,14 @@
         <option value="$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/collectinfo/LinuxSystemTool.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/collectinfo/CollectSytemInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/collectinfo/SystemParameter.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/client/MimaTimeClient.java" />
-        <option value="$PROJECT_DIR$/conf/conf.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/config/ConfigParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/StartClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/StartClient.java" />
         <option value="$PROJECT_DIR$/readme.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/collectinfo/CollectSytemInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/config/ConfigParser.java" />
+        <option value="$PROJECT_DIR$/conf/conf.properties" />
       </list>
     </option>
   </component>
@@ -166,10 +204,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-54" />
-    <option name="y" value="9" />
-    <option name="width" value="543" />
-    <option name="height" value="754" />
+    <option name="x" value="141" />
+    <option name="y" value="38" />
+    <option name="width" value="1008" />
+    <option name="height" value="682" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -199,6 +237,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,24 +256,167 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collectClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collectClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collectClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collectClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collectClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collectClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collectClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collectClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collectClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collectClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collectinfo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collectClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collectClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="OverrideImplement.combined" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -242,35 +424,14 @@
       <recent name="org.collectinfo.mina.client.schedule" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\gitcom\collectClient\src\main\java\org\collectinfo\mina\client\util" />
       <recent name="E:\gitcom\collectClient\jar" />
       <recent name="E:\gitcom\collectClient\backup" />
       <recent name="E:\gitcom\collectClient\src\main\java\org\collectinfo\mina\client\collectinfo" />
       <recent name="E:\gitcom\collectClient\src\main\java\org\collectinfo\mina\client" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CollectSytemInfo">
-    <configuration default="false" name="ConfigParser" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.collectinfo.mina.client.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="org.collectinfo.mina.client.config.ConfigParser" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="collectClient" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.StartClient">
     <configuration default="false" name="MyTimer" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -360,6 +521,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="StartClient" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.collectinfo.mina.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.collectinfo.mina.client.StartClient" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="collectClient" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -395,6 +578,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -421,19 +617,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -502,19 +685,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.MimaTimeClient" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ConfigParser" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MyTimer" />
-      <item index="3" class="java.lang.String" itemvalue="Application.WindowsSystemTool" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CollectSytemInfo" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MyTimer" />
+      <item index="2" class="java.lang.String" itemvalue="Application.WindowsSystemTool" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CollectSytemInfo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="5" class="java.lang.String" itemvalue="Application.StartClient" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CollectSytemInfo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="2" class="java.lang.String" itemvalue="Application.WindowsSystemTool" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MyTimer" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ConfigParser" />
+        <item index="0" class="java.lang.String" itemvalue="Application.StartClient" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CollectSytemInfo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.WindowsSystemTool" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MyTimer" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -550,8 +733,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-54" y="9" width="543" height="754" extended-state="0" />
-    <editor active="false" />
+    <frame x="141" y="38" width="1008" height="682" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -567,11 +750,11 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6049896" sideWeight="0.6320422" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.061310783" sideWeight="0.63339734" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39501038" sideWeight="0.6320422" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36795774" sideWeight="0.9973238" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31606767" sideWeight="0.63339734" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3666027" sideWeight="0.9973238" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -639,6 +822,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/StartClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="32" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="6" selection-start="957" selection-end="957" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://F:/Program Files(x86)/Java/jdk1.6.0_43/src.zip!/java/lang/InterruptedException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="6" selection-start="987" selection-end="987" vertical-scroll-proportion="0.33333334" />
@@ -646,23 +843,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/client/TimeClientHander.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="38" selection-start="1162" selection-end="1162" vertical-scroll-proportion="-0.2208589">
-          <folding />
-        </state>
+        <state line="37" column="38" selection-start="1162" selection-end="1162" vertical-scroll-proportion="-0.2208589" />
       </provider>
     </entry>
     <entry file="jar://F:/Program Files(x86)/Java/jdk1.6.0_43/src.zip!/java/lang/management/OperatingSystemMXBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="17" selection-start="1423" selection-end="1423" vertical-scroll-proportion="0.33266932">
-          <folding />
-        </state>
+        <state line="41" column="17" selection-start="1423" selection-end="1423" vertical-scroll-proportion="0.33266932" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backup/LinuxSystemTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="48" selection-start="159" selection-end="159" vertical-scroll-proportion="0.16564417">
-          <folding />
-        </state>
+        <state line="6" column="48" selection-start="159" selection-end="159" vertical-scroll-proportion="0.16564417" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
@@ -672,32 +863,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/conf.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="121" selection-end="121" vertical-scroll-proportion="0.44505495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/collectinfo/CollectSytemInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="46" selection-start="7241" selection-end="7260" vertical-scroll-proportion="0.5524862">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/collectinfo/SystemParameter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="34" selection-start="995" selection-end="995" vertical-scroll-proportion="0.2044199">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/config/ConfigParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="51" selection-start="367" selection-end="367" vertical-scroll-proportion="0.049723756">
           <folding />
         </state>
       </provider>
@@ -720,14 +888,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="7" selection-start="145" selection-end="145" vertical-scroll-proportion="0.4041916">
+        <state line="13" column="13" selection-start="319" selection-end="319" vertical-scroll-proportion="0.63129497">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/conf.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="34" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/util/GetLocalIP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="8" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/collectinfo/CollectSytemInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="24" selection-start="6471" selection-end="6471" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/StartClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="32" selection-start="354" selection-end="354" vertical-scroll-proportion="0.56565654">
+        <state line="7" column="37" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/config/ConfigParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="48" selection-start="440" selection-end="440" vertical-scroll-proportion="0.50373137">
           <folding />
         </state>
       </provider>
