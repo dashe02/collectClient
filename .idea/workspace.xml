@@ -21,8 +21,8 @@
     <file path="/LinuxSystemTool.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418190433727" ignored="false" />
     <file path="/MyTimer.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418038107060" ignored="false" />
     <file path="E:/openclouddb/trunk/MyCAT/src/main/java/org/opencloudb/MycatServer.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418039132544" ignored="false" />
-    <file path="$PROJECT_DIR$/../CollectInfo/src/main/java/org/collectinfo/mina/file/ReadFile.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418132204593" ignored="false" />
-    <file path="/ReadFile.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418132204593" ignored="false" />
+    <file path="$PROJECT_DIR$/../CollectInfo/src/main/java/org/collectinfo/mina/file/ReadFile.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418299090490" ignored="false" />
+    <file path="/ReadFile.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418299090490" ignored="false" />
     <file path="/CollectSystemInfo.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418190392794" ignored="false" />
     <file path="/WindowsSystemTool.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418190818047" ignored="false" />
     <file path="/CollectSytemInfo.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418294245752" ignored="false" />
@@ -31,6 +31,12 @@
     <file path="/readme.txt" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418206693673" ignored="false" />
     <file path="/StartClient.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418202977008" ignored="false" />
     <file path="$PROJECT_DIR$/../CollectInfo/readme.txt" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418206693673" ignored="false" />
+    <file path="$PROJECT_DIR$/../CollectInfo/src/main/java/org/collectinfo/util/JsonUtil.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418294776317" ignored="false" />
+    <file path="/JsonUtil.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418294770699" ignored="false" />
+    <file path="$PROJECT_DIR$/../CollectInfo/src/main/java/org/collectinfo/mina/file/FileUtil.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418295106279" ignored="false" />
+    <file path="$PROJECT_DIR$/../CollectInfo/src/main/java/org/collectinfo/util/StringUtil.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418294940487" ignored="false" />
+    <file path="/StringUtil.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418294940124" ignored="false" />
+    <file path="/FileUtil.java" changelist="2a0b5f5e-0234-4c3d-acd0-f1c515bd7d2a" time="1418294968366" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,10 +96,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StartClient.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="StartClient.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/StartClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="37" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+            <state line="11" column="25" selection-start="276" selection-end="276" vertical-scroll-proportion="0.41033435">
               <folding />
             </state>
           </provider>
@@ -122,10 +128,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConfigParser.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ConfigParser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/config/ConfigParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="45" selection-start="315" selection-end="315" vertical-scroll-proportion="0.3625954">
+            <state line="15" column="48" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -216,8 +222,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="y" value="4" />
+    <option name="x" value="27" />
+    <option name="y" value="64" />
     <option name="width" value="1317" />
     <option name="height" value="672" />
   </component>
@@ -745,8 +751,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="4" width="1317" height="672" extended-state="0" />
-    <editor active="false" />
+    <frame x="27" y="64" width="1317" height="672" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -759,17 +765,17 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2247012" sideWeight="0.6340509" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2247012" sideWeight="0.76516634" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1816733" sideWeight="0.6340509" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36594912" sideWeight="0.9973238" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27171314" sideWeight="0.76516634" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23483366" sideWeight="0.9973238" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -875,7 +881,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/client/MimaTimeClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="17" selection-start="1513" selection-end="1513" vertical-scroll-proportion="-1.0209581" />
+        <state line="31" column="17" selection-start="1513" selection-end="1513" vertical-scroll-proportion="-1.0209581">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -890,23 +900,9 @@
         <state line="13" column="13" selection-start="319" selection-end="319" vertical-scroll-proportion="0.63129497" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/conf.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/util/GetLocalIP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="8" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/StartClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="37" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -930,9 +926,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/conf/conf.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="34" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/config/ConfigParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="45" selection-start="315" selection-end="315" vertical-scroll-proportion="0.3625954">
+        <state line="15" column="48" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/collectinfo/mina/client/StartClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="25" selection-start="276" selection-end="276" vertical-scroll-proportion="0.41033435">
           <folding />
         </state>
       </provider>
