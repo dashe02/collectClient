@@ -154,7 +154,7 @@ public class CollectSytemInfo {
        float net=getNetUse();
        int thread=getThreadCount();
        String localIP=getLocalIP.getLocalIP().getHostAddress();
-       systemInfo="{ip:"+localIP+",cpu:"+cpu+",mem:"+mem+",net:"+net+",thread:"+thread+"}";
+       systemInfo="{\""+localIP+"\":{\"cpu\":\""+cpu+"\",\"mem\":\""+mem+"\",\"net\":\""+net+"\",\"thread\":\""+thread+"\"}}";
        return systemInfo;
     }
     public float getCpuUse(){      //使用cpu利用率
