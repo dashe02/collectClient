@@ -10,7 +10,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7551"/>
+    <property name="idea.launcher.port" value="7532"/>
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 7"/>
     <property name="classworlds.conf" value="F:\apache-maven-3.0.5-bin\apache-maven-3.0.5\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="F:\Program Files(x86)\Java\jdk1.6.0_43\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\IdeaIU\IntelliJ IDEA 12.0\bin\..\.\bin;F:\Program Files (x86)\Java\jdk1.7.0_13\bin;F:\Program Files (x86)\Java\jdk1.7.0_13\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\grails-2.2.4\grails-2.2.4\bin;F:\mysql\bin;E:\mysql2\bin;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;F:\mysqlproxy\mysql-proxy-0.8.2-win32-x86\bin;%CATALINA_HOME%\bin;E:\mongodb\bin;E:\maven\bin;E:\redis\redis-2.6\bin\release\redisbin64;E:\apache-ant-1.9.3\bin;F:\mongodb\bin;E:\ant\bin;F:\Program Files\TortoiseSVN\bin;F:\apache-maven-3.0.5-bin\apache-maven-3.0.5\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v717\runtime\win64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;f:\ideaiu\intellij idea 12.0\jre\jre\bin;."/>
+    <property name="java.library.path" value="F:\Program Files(x86)\Java\jdk1.6.0_43\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\IdeaIU\IntelliJ IDEA 12.0\bin\..\.\bin;2\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\grails-2.2.4\grails-2.2.4\bin;F:\mysql\bin;E:\mysql2\bin;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;F:\mysqlproxy\mysql-proxy-0.8.2-win32-x86\bin;%CATALINA_HOME%\bin;E:\mongodb\bin;E:\maven\bin;E:\redis\redis-2.6\bin\release\redisbin64;E:\apache-ant-1.9.3\bin;F:\mongodb\bin;E:\ant\bin;F:\Program Files\TortoiseSVN\bin;F:\apache-maven-3.0.5-bin\apache-maven-3.0.5\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v717\runtime\win64;E:\Program Files (x86)\Rational\common;F:\Program Files (x86)\Java\jdk1.7.0_13\bin;C:\Windows/system32;C:\Windows;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;f:\ideaiu\intellij idea 12.0\jre\jre\bin;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="50.0"/>
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>

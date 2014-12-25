@@ -17,7 +17,16 @@ import java.util.Map;
  */
 public class CollectSytemInfo {
     private final long constant=1024L;
-    private final GetLocalIP getLocalIP=new GetLocalIP();
+    private GetLocalIP getLocalIP=null;
+    private Sigar sigar=null;
+    private ThreadGroup group = null;
+    private ThreadGroup topGroup =null;
+    public CollectSytemInfo(){
+        getLocalIP=new GetLocalIP();
+        sigar=new Sigar();
+        group = Thread.currentThread().getThreadGroup();
+        topGroup = group;
+    }
     public Map<String,Float> getMemory(){
         float totalMem=0f;
         float usedMem=0f;
@@ -27,7 +36,6 @@ public class CollectSytemInfo {
         float freeSwp=0f;
         Map<String,Float> memInfoMap=new HashMap<String, Float>();
         try{
-            Sigar sigar=new Sigar();
             Mem mem=sigar.getMem();
             Swap swap=sigar.getSwap();
             totalMem=mem.getTotal()/constant;
@@ -56,7 +64,6 @@ public class CollectSytemInfo {
         String totalUsed=null;
         Map<String,String> cpuInfoMap=new HashMap<String, String>();
         try{
-           Sigar sigar=new Sigar();
             CpuInfo infos[]=sigar.getCpuInfoList();
             CpuPerc cpuList[]=null;
             cpuList=sigar.getCpuPercList();
@@ -92,7 +99,6 @@ public class CollectSytemInfo {
         Map<String,Long> netInfoMap=new HashMap<String, Long>();
         List<Map<String,Long>> netInfos=new ArrayList<Map<String, Long>>();
         try{
-         Sigar sigar=new Sigar();
          String ifNames[]=sigar.getNetInterfaceList();
          for(int i=0;i<ifNames.length;i++){
          String name=ifNames[i];
@@ -129,8 +135,6 @@ public class CollectSytemInfo {
         return netInfos;
     }
     public int getThreadCount(){
-        ThreadGroup group = Thread.currentThread().getThreadGroup();
-        ThreadGroup topGroup = group;
         // 遍历线程组树，获取根线程组
         while (group != null) {
             topGroup = group;
@@ -181,6 +185,6 @@ public class CollectSytemInfo {
     }
     public static void main(String[] args){
         CollectSytemInfo col=new CollectSytemInfo();
-        System.out.println(col.getSystemInfo());
+        System.out.println(col.getNetInfo());
     }
 }

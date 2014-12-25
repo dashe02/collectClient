@@ -29,6 +29,8 @@ public class MimaTimeClient {
     private final int MINUTE=Integer.parseInt(configParser.getPros().get("MINUTE").toString());
     private final int SECOND=Integer.parseInt(configParser.getPros().get("SECOND").toString());
     private final int delay=Integer.parseInt(configParser.getPros().get("delay").toString());
+    private final CollectSytemInfo collectSytemInfo=new CollectSytemInfo();
+    private  String jsonString=new String();
     public  void connect(){
         IoConnector connector = new NioSocketConnector();
         connector.getFilterChain().addLast("logger",new LoggingFilter());
@@ -49,8 +51,8 @@ public class MimaTimeClient {
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
-                String jsonString=new CollectSytemInfo().getSystemInfo();
-                session.write(jsonString);
+                jsonString=collectSytemInfo.getSystemInfo();
+                session.write(jsonString.toString());
             }                           //cal.getTime()为得出执行任务的时间,为今天的12:00:00
         },cal.getTime(),delay);        //设定将延时每天固定执行
         if(session!=null){
